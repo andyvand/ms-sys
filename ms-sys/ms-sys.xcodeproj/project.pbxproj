@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B3ACA01A86E7D200C28EA6 /* br.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC911A86E7D200C28EA6 /* br.c */; };
+		A9B3ACA11A86E7D200C28EA6 /* fat12.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC921A86E7D200C28EA6 /* fat12.c */; };
+		A9B3ACA21A86E7D200C28EA6 /* fat16.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC931A86E7D200C28EA6 /* fat16.c */; };
+		A9B3ACA31A86E7D200C28EA6 /* fat16fd.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC941A86E7D200C28EA6 /* fat16fd.c */; };
+		A9B3ACA41A86E7D200C28EA6 /* fat32.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC951A86E7D200C28EA6 /* fat32.c */; };
+		A9B3ACA51A86E7D200C28EA6 /* fat32fd.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC961A86E7D200C28EA6 /* fat32fd.c */; };
+		A9B3ACA61A86E7D200C28EA6 /* fat32nt.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC971A86E7D200C28EA6 /* fat32nt.c */; };
+		A9B3ACA71A86E7D200C28EA6 /* fat32pe.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC981A86E7D200C28EA6 /* fat32pe.c */; };
+		A9B3ACA81A86E7D200C28EA6 /* fat32w7.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC991A86E7D200C28EA6 /* fat32w7.c */; };
+		A9B3ACA91A86E7D200C28EA6 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC9A1A86E7D200C28EA6 /* file.c */; };
+		A9B3ACAA1A86E7D200C28EA6 /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC9B1A86E7D200C28EA6 /* identify.c */; };
+		A9B3ACAB1A86E7D200C28EA6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC9C1A86E7D200C28EA6 /* main.c */; };
+		A9B3ACAC1A86E7D200C28EA6 /* nls.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC9D1A86E7D200C28EA6 /* nls.c */; };
+		A9B3ACAD1A86E7D200C28EA6 /* ntfs.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC9E1A86E7D200C28EA6 /* ntfs.c */; };
+		A9B3ACAE1A86E7D200C28EA6 /* partition_info.c in Sources */ = {isa = PBXBuildFile; fileRef = A9B3AC9F1A86E7D200C28EA6 /* partition_info.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9B3AC831A86E7A200C28EA6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9B3AC851A86E7A200C28EA6 /* ms-sys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ms-sys"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B3AC911A86E7D200C28EA6 /* br.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = br.c; path = ../src/br.c; sourceTree = "<group>"; };
+		A9B3AC921A86E7D200C28EA6 /* fat12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat12.c; path = ../src/fat12.c; sourceTree = "<group>"; };
+		A9B3AC931A86E7D200C28EA6 /* fat16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat16.c; path = ../src/fat16.c; sourceTree = "<group>"; };
+		A9B3AC941A86E7D200C28EA6 /* fat16fd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat16fd.c; path = ../src/fat16fd.c; sourceTree = "<group>"; };
+		A9B3AC951A86E7D200C28EA6 /* fat32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat32.c; path = ../src/fat32.c; sourceTree = "<group>"; };
+		A9B3AC961A86E7D200C28EA6 /* fat32fd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat32fd.c; path = ../src/fat32fd.c; sourceTree = "<group>"; };
+		A9B3AC971A86E7D200C28EA6 /* fat32nt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat32nt.c; path = ../src/fat32nt.c; sourceTree = "<group>"; };
+		A9B3AC981A86E7D200C28EA6 /* fat32pe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat32pe.c; path = ../src/fat32pe.c; sourceTree = "<group>"; };
+		A9B3AC991A86E7D200C28EA6 /* fat32w7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fat32w7.c; path = ../src/fat32w7.c; sourceTree = "<group>"; };
+		A9B3AC9A1A86E7D200C28EA6 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = ../src/file.c; sourceTree = "<group>"; };
+		A9B3AC9B1A86E7D200C28EA6 /* identify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = identify.c; path = ../src/identify.c; sourceTree = "<group>"; };
+		A9B3AC9C1A86E7D200C28EA6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../src/main.c; sourceTree = "<group>"; };
+		A9B3AC9D1A86E7D200C28EA6 /* nls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nls.c; path = ../src/nls.c; sourceTree = "<group>"; };
+		A9B3AC9E1A86E7D200C28EA6 /* ntfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ntfs.c; path = ../src/ntfs.c; sourceTree = "<group>"; };
+		A9B3AC9F1A86E7D200C28EA6 /* partition_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = partition_info.c; path = ../src/partition_info.c; sourceTree = "<group>"; };
+		A9B3ACAF1A86E7DD00C28EA6 /* br_fat12_0x0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat12_0x0.h; path = ../inc/br_fat12_0x0.h; sourceTree = "<group>"; };
+		A9B3ACB01A86E7DD00C28EA6 /* br_fat12_0x3e.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat12_0x3e.h; path = ../inc/br_fat12_0x3e.h; sourceTree = "<group>"; };
+		A9B3ACB11A86E7DD00C28EA6 /* br_fat12w7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat12w7.h; path = ../inc/br_fat12w7.h; sourceTree = "<group>"; };
+		A9B3ACB21A86E7DD00C28EA6 /* br_fat16_0x0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat16_0x0.h; path = ../inc/br_fat16_0x0.h; sourceTree = "<group>"; };
+		A9B3ACB31A86E7DD00C28EA6 /* br_fat16_0x3e.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat16_0x3e.h; path = ../inc/br_fat16_0x3e.h; sourceTree = "<group>"; };
+		A9B3ACB41A86E7DD00C28EA6 /* br_fat16fd_0x3e.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat16fd_0x3e.h; path = ../inc/br_fat16fd_0x3e.h; sourceTree = "<group>"; };
+		A9B3ACB51A86E7DD00C28EA6 /* br_fat32_0x0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32_0x0.h; path = ../inc/br_fat32_0x0.h; sourceTree = "<group>"; };
+		A9B3ACB61A86E7DD00C28EA6 /* br_fat32_0x3f0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32_0x3f0.h; path = ../inc/br_fat32_0x3f0.h; sourceTree = "<group>"; };
+		A9B3ACB71A86E7DD00C28EA6 /* br_fat32_0x52.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32_0x52.h; path = ../inc/br_fat32_0x52.h; sourceTree = "<group>"; };
+		A9B3ACB81A86E7DD00C28EA6 /* br_fat32fd_0x3f0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32fd_0x3f0.h; path = ../inc/br_fat32fd_0x3f0.h; sourceTree = "<group>"; };
+		A9B3ACB91A86E7DD00C28EA6 /* br_fat32fd_0x52.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32fd_0x52.h; path = ../inc/br_fat32fd_0x52.h; sourceTree = "<group>"; };
+		A9B3ACBA1A86E7DD00C28EA6 /* br_fat32nt_0x0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32nt_0x0.h; path = ../inc/br_fat32nt_0x0.h; sourceTree = "<group>"; };
+		A9B3ACBB1A86E7DD00C28EA6 /* br_fat32nt_0x3f0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32nt_0x3f0.h; path = ../inc/br_fat32nt_0x3f0.h; sourceTree = "<group>"; };
+		A9B3ACBC1A86E7DD00C28EA6 /* br_fat32nt_0x52.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32nt_0x52.h; path = ../inc/br_fat32nt_0x52.h; sourceTree = "<group>"; };
+		A9B3ACBD1A86E7DD00C28EA6 /* br_fat32nt_0x1800.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32nt_0x1800.h; path = ../inc/br_fat32nt_0x1800.h; sourceTree = "<group>"; };
+		A9B3ACBE1A86E7DD00C28EA6 /* br_fat32pe_0x0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32pe_0x0.h; path = ../inc/br_fat32pe_0x0.h; sourceTree = "<group>"; };
+		A9B3ACBF1A86E7DD00C28EA6 /* br_fat32pe_0x3f0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32pe_0x3f0.h; path = ../inc/br_fat32pe_0x3f0.h; sourceTree = "<group>"; };
+		A9B3ACC01A86E7DD00C28EA6 /* br_fat32pe_0x52.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32pe_0x52.h; path = ../inc/br_fat32pe_0x52.h; sourceTree = "<group>"; };
+		A9B3ACC11A86E7DD00C28EA6 /* br_fat32pe_0x1800.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32pe_0x1800.h; path = ../inc/br_fat32pe_0x1800.h; sourceTree = "<group>"; };
+		A9B3ACC21A86E7DD00C28EA6 /* br_fat32w7_0x52.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32w7_0x52.h; path = ../inc/br_fat32w7_0x52.h; sourceTree = "<group>"; };
+		A9B3ACC31A86E7DD00C28EA6 /* br_fat32w7_0xc00.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_fat32w7_0xc00.h; path = ../inc/br_fat32w7_0xc00.h; sourceTree = "<group>"; };
+		A9B3ACC41A86E7DD00C28EA6 /* br_ntfs_0x0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_ntfs_0x0.h; path = ../inc/br_ntfs_0x0.h; sourceTree = "<group>"; };
+		A9B3ACC51A86E7DD00C28EA6 /* br_ntfs_0x54.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br_ntfs_0x54.h; path = ../inc/br_ntfs_0x54.h; sourceTree = "<group>"; };
+		A9B3ACC61A86E7DD00C28EA6 /* br.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = br.h; path = ../inc/br.h; sourceTree = "<group>"; };
+		A9B3ACC71A86E7DD00C28EA6 /* fat12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fat12.h; path = ../inc/fat12.h; sourceTree = "<group>"; };
+		A9B3ACC81A86E7DD00C28EA6 /* fat16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fat16.h; path = ../inc/fat16.h; sourceTree = "<group>"; };
+		A9B3ACC91A86E7DD00C28EA6 /* fat16fd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fat16fd.h; path = ../inc/fat16fd.h; sourceTree = "<group>"; };
+		A9B3ACCA1A86E7DD00C28EA6 /* fat32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fat32.h; path = ../inc/fat32.h; sourceTree = "<group>"; };
+		A9B3ACCB1A86E7DD00C28EA6 /* fat32fd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fat32fd.h; path = ../inc/fat32fd.h; sourceTree = "<group>"; };
+		A9B3ACCC1A86E7DD00C28EA6 /* fat32nt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fat32nt.h; path = ../inc/fat32nt.h; sourceTree = "<group>"; };
+		A9B3ACCD1A86E7DD00C28EA6 /* fat32pe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fat32pe.h; path = ../inc/fat32pe.h; sourceTree = "<group>"; };
+		A9B3ACCE1A86E7DD00C28EA6 /* file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = file.h; path = ../inc/file.h; sourceTree = "<group>"; };
+		A9B3ACCF1A86E7DD00C28EA6 /* identify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = identify.h; path = ../inc/identify.h; sourceTree = "<group>"; };
+		A9B3ACD01A86E7DD00C28EA6 /* label_11_char.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = label_11_char.h; path = ../inc/label_11_char.h; sourceTree = "<group>"; };
+		A9B3ACD11A86E7DD00C28EA6 /* mbr_95b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_95b.h; path = ../inc/mbr_95b.h; sourceTree = "<group>"; };
+		A9B3ACD21A86E7DD00C28EA6 /* mbr_2000.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_2000.h; path = ../inc/mbr_2000.h; sourceTree = "<group>"; };
+		A9B3ACD31A86E7DD00C28EA6 /* mbr_dos_f2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_dos_f2.h; path = ../inc/mbr_dos_f2.h; sourceTree = "<group>"; };
+		A9B3ACD41A86E7DD00C28EA6 /* mbr_dos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_dos.h; path = ../inc/mbr_dos.h; sourceTree = "<group>"; };
+		A9B3ACD51A86E7DD00C28EA6 /* mbr_gpt_syslinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_gpt_syslinux.h; path = ../inc/mbr_gpt_syslinux.h; sourceTree = "<group>"; };
+		A9B3ACD61A86E7DD00C28EA6 /* mbr_syslinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_syslinux.h; path = ../inc/mbr_syslinux.h; sourceTree = "<group>"; };
+		A9B3ACD71A86E7DD00C28EA6 /* mbr_vista.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_vista.h; path = ../inc/mbr_vista.h; sourceTree = "<group>"; };
+		A9B3ACD81A86E7DD00C28EA6 /* mbr_win7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_win7.h; path = ../inc/mbr_win7.h; sourceTree = "<group>"; };
+		A9B3ACD91A86E7DD00C28EA6 /* mbr_win7fat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_win7fat.h; path = ../inc/mbr_win7fat.h; sourceTree = "<group>"; };
+		A9B3ACDA1A86E7DD00C28EA6 /* mbr_zero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mbr_zero.h; path = ../inc/mbr_zero.h; sourceTree = "<group>"; };
+		A9B3ACDB1A86E7DD00C28EA6 /* nls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nls.h; path = ../inc/nls.h; sourceTree = "<group>"; };
+		A9B3ACDC1A86E7DD00C28EA6 /* ntfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ntfs.h; path = ../inc/ntfs.h; sourceTree = "<group>"; };
+		A9B3ACDD1A86E7DD00C28EA6 /* partition_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = partition_info.h; path = ../inc/partition_info.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B3AC821A86E7A200C28EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B3AC7C1A86E7A200C28EA6 = {
+			isa = PBXGroup;
+			children = (
+				A9B3AC901A86E7BE00C28EA6 /* Headers */,
+				A9B3AC8F1A86E7B600C28EA6 /* Sources */,
+				A9B3AC861A86E7A200C28EA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B3AC861A86E7A200C28EA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B3AC851A86E7A200C28EA6 /* ms-sys */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B3AC8F1A86E7B600C28EA6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A9B3AC911A86E7D200C28EA6 /* br.c */,
+				A9B3AC921A86E7D200C28EA6 /* fat12.c */,
+				A9B3AC931A86E7D200C28EA6 /* fat16.c */,
+				A9B3AC941A86E7D200C28EA6 /* fat16fd.c */,
+				A9B3AC951A86E7D200C28EA6 /* fat32.c */,
+				A9B3AC961A86E7D200C28EA6 /* fat32fd.c */,
+				A9B3AC971A86E7D200C28EA6 /* fat32nt.c */,
+				A9B3AC981A86E7D200C28EA6 /* fat32pe.c */,
+				A9B3AC991A86E7D200C28EA6 /* fat32w7.c */,
+				A9B3AC9A1A86E7D200C28EA6 /* file.c */,
+				A9B3AC9B1A86E7D200C28EA6 /* identify.c */,
+				A9B3AC9C1A86E7D200C28EA6 /* main.c */,
+				A9B3AC9D1A86E7D200C28EA6 /* nls.c */,
+				A9B3AC9E1A86E7D200C28EA6 /* ntfs.c */,
+				A9B3AC9F1A86E7D200C28EA6 /* partition_info.c */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A9B3AC901A86E7BE00C28EA6 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A9B3ACAF1A86E7DD00C28EA6 /* br_fat12_0x0.h */,
+				A9B3ACB01A86E7DD00C28EA6 /* br_fat12_0x3e.h */,
+				A9B3ACB11A86E7DD00C28EA6 /* br_fat12w7.h */,
+				A9B3ACB21A86E7DD00C28EA6 /* br_fat16_0x0.h */,
+				A9B3ACB31A86E7DD00C28EA6 /* br_fat16_0x3e.h */,
+				A9B3ACB41A86E7DD00C28EA6 /* br_fat16fd_0x3e.h */,
+				A9B3ACB51A86E7DD00C28EA6 /* br_fat32_0x0.h */,
+				A9B3ACB61A86E7DD00C28EA6 /* br_fat32_0x3f0.h */,
+				A9B3ACB71A86E7DD00C28EA6 /* br_fat32_0x52.h */,
+				A9B3ACB81A86E7DD00C28EA6 /* br_fat32fd_0x3f0.h */,
+				A9B3ACB91A86E7DD00C28EA6 /* br_fat32fd_0x52.h */,
+				A9B3ACBA1A86E7DD00C28EA6 /* br_fat32nt_0x0.h */,
+				A9B3ACBB1A86E7DD00C28EA6 /* br_fat32nt_0x3f0.h */,
+				A9B3ACBC1A86E7DD00C28EA6 /* br_fat32nt_0x52.h */,
+				A9B3ACBD1A86E7DD00C28EA6 /* br_fat32nt_0x1800.h */,
+				A9B3ACBE1A86E7DD00C28EA6 /* br_fat32pe_0x0.h */,
+				A9B3ACBF1A86E7DD00C28EA6 /* br_fat32pe_0x3f0.h */,
+				A9B3ACC01A86E7DD00C28EA6 /* br_fat32pe_0x52.h */,
+				A9B3ACC11A86E7DD00C28EA6 /* br_fat32pe_0x1800.h */,
+				A9B3ACC21A86E7DD00C28EA6 /* br_fat32w7_0x52.h */,
+				A9B3ACC31A86E7DD00C28EA6 /* br_fat32w7_0xc00.h */,
+				A9B3ACC41A86E7DD00C28EA6 /* br_ntfs_0x0.h */,
+				A9B3ACC51A86E7DD00C28EA6 /* br_ntfs_0x54.h */,
+				A9B3ACC61A86E7DD00C28EA6 /* br.h */,
+				A9B3ACC71A86E7DD00C28EA6 /* fat12.h */,
+				A9B3ACC81A86E7DD00C28EA6 /* fat16.h */,
+				A9B3ACC91A86E7DD00C28EA6 /* fat16fd.h */,
+				A9B3ACCA1A86E7DD00C28EA6 /* fat32.h */,
+				A9B3ACCB1A86E7DD00C28EA6 /* fat32fd.h */,
+				A9B3ACCC1A86E7DD00C28EA6 /* fat32nt.h */,
+				A9B3ACCD1A86E7DD00C28EA6 /* fat32pe.h */,
+				A9B3ACCE1A86E7DD00C28EA6 /* file.h */,
+				A9B3ACCF1A86E7DD00C28EA6 /* identify.h */,
+				A9B3ACD01A86E7DD00C28EA6 /* label_11_char.h */,
+				A9B3ACD11A86E7DD00C28EA6 /* mbr_95b.h */,
+				A9B3ACD21A86E7DD00C28EA6 /* mbr_2000.h */,
+				A9B3ACD31A86E7DD00C28EA6 /* mbr_dos_f2.h */,
+				A9B3ACD41A86E7DD00C28EA6 /* mbr_dos.h */,
+				A9B3ACD51A86E7DD00C28EA6 /* mbr_gpt_syslinux.h */,
+				A9B3ACD61A86E7DD00C28EA6 /* mbr_syslinux.h */,
+				A9B3ACD71A86E7DD00C28EA6 /* mbr_vista.h */,
+				A9B3ACD81A86E7DD00C28EA6 /* mbr_win7.h */,
+				A9B3ACD91A86E7DD00C28EA6 /* mbr_win7fat.h */,
+				A9B3ACDA1A86E7DD00C28EA6 /* mbr_zero.h */,
+				A9B3ACDB1A86E7DD00C28EA6 /* nls.h */,
+				A9B3ACDC1A86E7DD00C28EA6 /* ntfs.h */,
+				A9B3ACDD1A86E7DD00C28EA6 /* partition_info.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B3AC841A86E7A200C28EA6 /* ms-sys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B3AC8C1A86E7A200C28EA6 /* Build configuration list for PBXNativeTarget "ms-sys" */;
+			buildPhases = (
+				A9B3AC811A86E7A200C28EA6 /* Sources */,
+				A9B3AC821A86E7A200C28EA6 /* Frameworks */,
+				A9B3AC831A86E7A200C28EA6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ms-sys";
+			productName = "ms-sys";
+			productReference = A9B3AC851A86E7A200C28EA6 /* ms-sys */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B3AC7D1A86E7A200C28EA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "AnV Software";
+				TargetAttributes = {
+					A9B3AC841A86E7A200C28EA6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A9B3AC801A86E7A200C28EA6 /* Build configuration list for PBXProject "ms-sys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9B3AC7C1A86E7A200C28EA6;
+			productRefGroup = A9B3AC861A86E7A200C28EA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B3AC841A86E7A200C28EA6 /* ms-sys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B3AC811A86E7A200C28EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B3ACA61A86E7D200C28EA6 /* fat32nt.c in Sources */,
+				A9B3ACAA1A86E7D200C28EA6 /* identify.c in Sources */,
+				A9B3ACA51A86E7D200C28EA6 /* fat32fd.c in Sources */,
+				A9B3ACA21A86E7D200C28EA6 /* fat16.c in Sources */,
+				A9B3ACAC1A86E7D200C28EA6 /* nls.c in Sources */,
+				A9B3ACA81A86E7D200C28EA6 /* fat32w7.c in Sources */,
+				A9B3ACA11A86E7D200C28EA6 /* fat12.c in Sources */,
+				A9B3ACA91A86E7D200C28EA6 /* file.c in Sources */,
+				A9B3ACAD1A86E7D200C28EA6 /* ntfs.c in Sources */,
+				A9B3ACA31A86E7D200C28EA6 /* fat16fd.c in Sources */,
+				A9B3ACAB1A86E7D200C28EA6 /* main.c in Sources */,
+				A9B3ACAE1A86E7D200C28EA6 /* partition_info.c in Sources */,
+				A9B3ACA41A86E7D200C28EA6 /* fat32.c in Sources */,
+				A9B3ACA01A86E7D200C28EA6 /* br.c in Sources */,
+				A9B3ACA71A86E7D200C28EA6 /* fat32pe.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9B3AC8A1A86E7A200C28EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.6.0;
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.6.0;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"$(PROJECT_DIR)/../inc",
+					"$(PROJECT_DIR)/../include-fallback",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = "ms-sys-applevers.c";
+			};
+			name = Debug;
+		};
+		A9B3AC8B1A86E7A200C28EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2.6.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.6.0;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = z;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"$(PROJECT_DIR)/../inc",
+					"$(PROJECT_DIR)/../include-fallback",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = "ms-sys-applevers.c";
+			};
+			name = Release;
+		};
+		A9B3AC8D1A86E7A200C28EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9B3AC8E1A86E7A200C28EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B3AC801A86E7A200C28EA6 /* Build configuration list for PBXProject "ms-sys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B3AC8A1A86E7A200C28EA6 /* Debug */,
+				A9B3AC8B1A86E7A200C28EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B3AC8C1A86E7A200C28EA6 /* Build configuration list for PBXNativeTarget "ms-sys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B3AC8D1A86E7A200C28EA6 /* Debug */,
+				A9B3AC8E1A86E7A200C28EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B3AC7D1A86E7A200C28EA6 /* Project object */;
+}
